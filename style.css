@@ -29,3 +29,7 @@ p{
   text-align: center;
   text-decoration: none;
 }
+#nav a:hover {
+  color: white;
+  background-color: #377ad1;
+}
