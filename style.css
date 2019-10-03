@@ -15,8 +15,17 @@ p{
   padding:0;
   list-style-type: none;
 }
-#nav li a {
+#nav li {
   font-size:16px;
-  border-bottom: 1px solid #fff2e6;
+  border-bottom: 1px solid white;
   font-family: 'Oswald', sans-serif;
+}
+#nav a {
+  display: block;
+  padding: 3px;
+  color: black;
+  background-color: #8fbfff;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
 }
