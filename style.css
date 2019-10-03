@@ -1,1 +1,13 @@
 /*our styles*/
+h1{
+  font-size: 35px;
+  font-family: 'Oswald', sans-serif;
+}
+h2{
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+p{
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
