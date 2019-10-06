@@ -95,9 +95,11 @@ footer #copyright{
 footer #contact{
   position: absolute;
   right:0;
+  bottom: 0;
   width: 37%;
   margin-left: 63%;
   padding-top: 1px;
+  bottom: 0;
 }
 
 
