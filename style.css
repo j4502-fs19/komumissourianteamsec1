@@ -7,13 +7,14 @@ h2{
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
 }
-p{
+body{
   font-size: 16px;
   font-family: 'Lato', sans-serif;
 }
 #nav {
   padding:0;
   list-style-type: none;
+  overflow: hidden;
 }
 #nav li {
   font-size:16px;
@@ -29,7 +30,34 @@ p{
   text-align: center;
   text-decoration: none;
 }
-#nav a:hover {
+#nav a:hover{
   color: white;
   background-color: #377ad1;
+}
+#stories{
+  text-align: center;
+  display: block;
+  margin:0 10%;
+  position: relative;
+  top: inherit;
+}
+i {
+  width: 5%;
+  position:absolute;
+  right:6px;
+  top:inherit;
+  padding-top: 5px;
+}
+#storydropdown{
+  display: none;
+  width: 30%;
+  position: relative;
+  margin: 0 0 0 70%;
+}
+#storydropdown a{
+  background-color:#377ad1;
+  color:black;
+}
+#storydropdown a:hover{
+  color:white;
 }
