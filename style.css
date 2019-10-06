@@ -11,6 +11,14 @@ body{
   font-size: 16px;
   font-family: 'Lato', sans-serif;
 }
+p{
+  width: 80%;
+  align-content: center;
+}
+#container{
+  width:90%;
+  margin: 0 auto;
+}
 #nav {
   padding:0;
   list-style-type: none;
