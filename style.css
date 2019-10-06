@@ -1,4 +1,4 @@
-/*our styles*/
+/*mobile size*/
 h1{
   font-size: 35px;
   font-family: 'Oswald', sans-serif;
@@ -26,6 +26,7 @@ body{
   font-size:16px;
   border-bottom: 2px solid white;
   font-family: 'Oswald', sans-serif;
+  width: 90%;
 }
 #nav a {
   display: block;
@@ -50,15 +51,17 @@ body{
 i {
   width: 5%;
   position:absolute;
-  right:6px;
+  right:20%;
   top:inherit;
   padding-top: 5px;
 }
 #storydropdown{
   display: none;
-  width: 30%;
-  position: relative;
-  margin: 0 0 0 70%;
+  width: 100%;
+}
+#storydropdown li {
+  width: 60%;
+  margin-left: 30%;
 }
 #storydropdown a{
   background-color:#377ad1;
@@ -67,8 +70,32 @@ i {
 #storydropdown a:hover{
   color:white;
 }
+
+/*desktop size*/
 @media screen and (min-width:599px){
   #nav{
     flex-flow: row wrap;
     align-items: space-around;
+  }
+  #nav li {
+    font-size:16px;
+    border-bottom: 2px solid white;
+    font-family: 'Oswald', sans-serif;
+    width: 33.3%;
+  }
+  i {
+    position:absolute;
+    right:10%;
+    top:inherit;
+  }
+  #storydropdown{
+    display: none;
+    position: relative;
+    margin-left: 79.6%;
+    margin-right: 0.1%;
+    width: 100%;
+  }
+  #storydropdown li {
+    width:70%;
+    padding:0;
   }
