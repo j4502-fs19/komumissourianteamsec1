@@ -1,4 +1,4 @@
-/*our styles*/
+/*mobile size*/
 h1{
   font-size: 35px;
   font-family: 'Oswald', sans-serif;
@@ -7,7 +7,7 @@ h2{
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
 }
-p{
+body{
   font-size: 16px;
   font-family: 'Lato', sans-serif;
 }
@@ -16,11 +16,13 @@ p{
   list-style-type: none;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 #nav li {
   font-size:16px;
   border-bottom: 2px solid white;
   font-family: 'Oswald', sans-serif;
+  width: 90%;
 }
 #nav a {
   display: block;
@@ -31,14 +33,65 @@ p{
   text-align: center;
   text-decoration: none;
 }
-#nav a:hover {
+#nav a:hover{
   color: white;
   background-color: #377ad1;
 }
+#stories{
+  text-align: center;
+  display: block;
+  margin:0 10%;
+  position: relative;
+  top: inherit;
+}
+i {
+  width: 5%;
+  position:absolute;
+  right:20%;
+  top:inherit;
+  padding-top: 5px;
+}
+#storydropdown{
+  display: none;
+  width: 100%;
+}
+#storydropdown li {
+  width: 60%;
+  margin-left: 30%;
+}
+#storydropdown a{
+  background-color:#377ad1;
+  color:black;
+}
+#storydropdown a:hover{
+  color:white;
+}
 
+/*desktop size*/
 @media screen and (min-width:599px){
   #nav{
     flex-flow: row wrap;
     align-items: space-around;
   }
-}
+  #nav li {
+    font-size:16px;
+    border-bottom: 2px solid white;
+    font-family: 'Oswald', sans-serif;
+    width: 33.3%;
+  }
+  i {
+    position:absolute;
+    right:10%;
+    top:inherit;
+  }
+  #storydropdown{
+    display: none;
+    position: relative;
+    margin-left: 79.6%;
+    margin-right: 0.1%;
+    width: 100%;
+  }
+  #storydropdown li {
+    width:70%;
+    padding:0;
+  }
