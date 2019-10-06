@@ -82,6 +82,26 @@ i {
   margin-right: auto;
   width: 90%;
 }
+footer{
+  display: block;
+  background-color: #8fbfff;
+  text-align: center;
+}
+footer #copyright{
+  position: inherit;
+  left: 3%;
+  width: 40%;
+}
+footer #contact{
+  position: absolute;
+  right:0;
+  bottom: 0;
+  width: 37%;
+  margin-left: 63%;
+  padding-top: 1px;
+  bottom: 0;
+}
+
 
 /*desktop size*/
 @media screen and (min-width:599px){
