@@ -102,16 +102,27 @@ footer #contact{
   bottom: 0;
 }
 
-#archives{
+#archives li{
   font-size:16px;
   border-bottom: 2px solid white;
-  font-family: 'Oswald', sans-serif;
-  padding:0;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
+  font-family: 'Lato', sans-serif;}
+
+  #archives {
+    padding:0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  #archives a {
+    display: block;
+    padding: 3px;
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
 
 
 
