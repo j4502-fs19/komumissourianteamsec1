@@ -98,17 +98,24 @@ footer ul {
 footer a{
   text-align: center;
 }
-#archives li{
+
+#archives{
+  text-align: center;
+}
+#archives ul li{
   font-size:16px;
   border-bottom: 2px solid white;
-  font-family: 'Lato', sans-serif;}
-
-  #archives {
+  font-family: 'Lato', sans-serif;
+  align-items: center;
+}
+#archives ul {
     padding:0;
     list-style-type: none;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
   }
 
   #archives a {
@@ -119,7 +126,6 @@ footer a{
     font-weight: 600;
     text-align: left;
     text-decoration: none;}
-
 
 
 /*desktop size*/
