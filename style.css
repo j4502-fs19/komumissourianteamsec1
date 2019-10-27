@@ -173,3 +173,10 @@ footer a {
     background-color: #8fbfff;
     height: 25px;
   }
+
+  .menucontainer{
+    display: grid;
+    max-width: 800px;
+    grid-template-columns: repeat(2,1fr);
+    align-content: center;
+    grid-gap: 20px;
