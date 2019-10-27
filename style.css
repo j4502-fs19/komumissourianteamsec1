@@ -123,6 +123,10 @@ footer a {
     text-align: left;
     text-decoration: none;}
 
+.story {
+  max-width: 80%
+}
+
 
 /*desktop size*/
 @media screen and (min-width:599px){
