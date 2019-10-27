@@ -164,7 +164,7 @@ footer a {
     display: block;
     background-color: #8fbfff;
     font-family: 'Oswald', sans-serif;
-    width: 100%;
+    width: 99%;
     height: 30px;
   }
   footer a {
@@ -174,7 +174,6 @@ footer a {
     font-size: 1em;
     text-align: center;
     margin-bottom: 5px;
-    background-color: #8fbfff;
     height: 25px;
   }
 
