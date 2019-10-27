@@ -163,3 +163,10 @@ footer img{
   header img {
     width: 50%;
   }
+
+  .menucontainer{
+    display: grid;
+    max-width: 800px;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    grid-gap: 20px
