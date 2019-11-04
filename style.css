@@ -4,12 +4,23 @@ h1{
   font-family: 'Oswald', sans-serif;
 }
 h2{
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color:
+  black;
+  display: flex;
+  justify-content: center;
 }
+
+p{
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;}
+
 body{
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Lato', sans-serif;
+
 }
 header img{
   width: 100%;
@@ -17,9 +28,25 @@ header img{
 nav{
   width: 100%;
 }
+
+
+.byline {
+  color:black;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.story{
+  color:black;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+
+}
+
 #container{
-  width:90%;
-  margin: 0 auto;
+  max-width: 70%;
 }
 #nav {
   padding:0;
@@ -49,7 +76,7 @@ nav{
 #stories{
   text-align: center;
   display: block;
-  margin:0 10%;
+  margin:10 10 10 10;
   position: relative;
   top: inherit;
 }
