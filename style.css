@@ -41,12 +41,15 @@ nav{
   color:black;
   font-weight: 400;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
+  margin: 50px 200px;
 
 }
 
 #container{
-  max-width: 70%;
+  margin: 10px 15px 10px;
+  text-align:center;
+  display: inline-block;
 }
 #nav {
   padding:0;
@@ -76,7 +79,7 @@ nav{
 #stories{
   text-align: center;
   display: block;
-  margin:10 10 10 10;
+  margin:0 10%;
   position: relative;
   top: inherit;
 }
@@ -150,9 +153,6 @@ footer a {
     text-align: left;
     text-decoration: none;}
 
-.story {
-  max-width: 70%;
-}
 
 /*desktop size*/
 @media screen and (min-width:599px){
