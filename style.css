@@ -46,6 +46,20 @@ nav{
 
 }
 
+.video{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.video iframe {
+  display: block;
+margin: auto;
+padding-bottom: 3em;
+}
+
+
 #container{
   margin: 10px 15px 10px;
   text-align:center;
