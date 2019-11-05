@@ -175,8 +175,31 @@ footer a {
     text-decoration: none;}
 
 
+/*mobile size*/
+@media screen and (max-width:598px){
+p{
+  font-size: .75em;
+}
+#container{
+  margin: auto;
+  text-align:center;
+  display: inherit;
+}
+
+.story{
+  margin: auto;
+  text-align: left;
+  display: inherit;
+    }
+}
+
+.photo{
+  display: inherit;
+}
+
 /*desktop size*/
-@media screen and (min-width:599px){
+@media screen and (min-width:600px){
+
   #nav{
     flex-flow: row wrap;
     align-items: space-around;
@@ -228,7 +251,6 @@ footer a {
   color:black;
   font-weight: 400;
   font-size: 20px;
-  text-align: left;
 }
 
   .menucontainer{
