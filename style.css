@@ -46,6 +46,13 @@ nav{
 
 }
 
+
+.caption{
+  font-size: 12px;
+  text-align: left;
+  color:black;
+}
+
 .video{
   position: relative;
   padding-bottom: 56.25%;
