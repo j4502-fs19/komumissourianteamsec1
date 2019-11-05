@@ -193,9 +193,6 @@ p{
     }
 }
 
-.photo{
-  display: inherit;
-}
 
 /*desktop size*/
 @media screen and (min-width:600px){
