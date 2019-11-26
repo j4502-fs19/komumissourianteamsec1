@@ -174,7 +174,14 @@ footer a {
     text-align: left;
     text-decoration: none;}
 
-
+.gun_examples{
+  list-style-type: none;
+  text-decoration: none;
+}
+.gov_examples{
+  list-style-type: none;
+  text-decoration: none;
+}
 /*mobile size*/
 @media screen and (max-width:598px){
 p{
