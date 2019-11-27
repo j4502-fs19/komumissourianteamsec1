@@ -34,6 +34,12 @@ nav{
   width: 100%;
 }
 
+.menu-trigger {
+  order: 1;
+  font-size: 1.75em;
+  width: 2em;
+}
+
 
 .byline {
   color:black;
@@ -213,6 +219,10 @@ p{
     }
 }
 
+.menu-trigger {
+  display: none;
+}
+
 
 /*desktop size*/
 @media screen and (min-width:600px){
@@ -272,9 +282,14 @@ p{
   font-size: 20px;
 }
 
-  .menucontainer{
+.menucontainer{
     display: grid;
     max-width: 800px;
     grid-template-columns: repeat(2,1fr);
     align-content: center;
     grid-gap: 20px;
+  }
+
+  .menu-trigger {
+      display: none;
+    }
