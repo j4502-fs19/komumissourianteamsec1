@@ -239,6 +239,8 @@
     #nav li{
       padding: 0;
     }
+  }
+  
 
     /*desktop size*/
     @media screen and (min-width:600px){
