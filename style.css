@@ -28,7 +28,11 @@
     }
 
     header img{
-      width: 100%;
+      width: 500px;
+      padding-left: 100px;
+      padding-right: 50px;
+
+
     }
 
     .byline {
@@ -121,7 +125,7 @@
       padding-top: 60px;
     }
     #nav li {
-      font-size:22px;
+      font-size:18px;
       padding-left: 40px;
       border-bottom: 2px solid white;
       font-family: 'Oswald', sans-serif;
