@@ -113,7 +113,7 @@
       text-align: center;
       display: inline-block;
       align-items: center;
-      margin-bottom: 10px;
+      padding-top: 10px;
     }
     #nav {
       list-style-type: none;
@@ -200,7 +200,10 @@
       list-style-type: none;
       text-decoration: none;
     }
-
+    #container2{
+      margin: 10px auto;
+      padding-top: 10px;
+    }
     /*mobile size*/
     @media screen and (max-width:598px){
     p {
