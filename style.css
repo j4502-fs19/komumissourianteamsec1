@@ -99,7 +99,7 @@
       max-width: 900px;
     }
     .menucontainer p {
-      width: 45%;
+      /* width: 45%; */
       margin: 10px 3px;
       min-height: 100px;
     }
@@ -240,7 +240,7 @@
       padding: 0;
     }
   }
-  
+
 
     /*desktop size*/
     @media screen and (min-width:600px){
