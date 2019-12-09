@@ -274,8 +274,8 @@
         padding-left: 60px;
       }
       header img{
-        width: 500px;
-        padding-left: 50px;
+        width: 400px;
+        padding-left: 30px;
         padding-right: 50px;
       }
       footer a {
@@ -299,4 +299,18 @@
     .menu-trigger{
             display: none;
           }
+    }
+
+    @media screen and (min-width:700px){
+      header img {
+        width: 500px;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+    }
+
+    @media screen and (min-width:1200px){
+      header img {
+        padding-left: 150px;
+      }
     }
