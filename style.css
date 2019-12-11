@@ -27,11 +27,7 @@
       display: flex;
     }
 
-    header img{
-      width: 300px;
-      padding-left: 30px;
-      padding-right: 50px;
-    }
+/* style for header img deleted*/
 
     .byline {
       color:black;
@@ -250,10 +246,13 @@
       padding: 0;
     }
 
+/* styles for header and header img adjusted */
+    header{
+      max-width: 340px;
+      margin: 0 auto;
+    }
     header img{
-      width: 400px;
-      padding-left: 30px;
-      padding-right: 50px;
+      width: 100%;
     }
   }
 
